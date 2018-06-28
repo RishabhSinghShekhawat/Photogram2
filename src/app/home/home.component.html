@@ -1,0 +1,45 @@
+ <div>
+    <h1 align="center" style="color:blue;">
+        PHOTOGRAM
+    </h1>
+</div>
+
+<div>
+    <h2>
+        Please fill the IMAGE AND CAPTION image address from any online source. 
+    </h2>
+    
+</div>
+<div>
+    <p>
+        This photogram will not work with local (IMAGE and CAPTION) image address.
+    </p>
+</div>
+
+<div  align="center" style="border:1px solid black">
+
+
+    <div>
+       Name:<br>
+      <input type="text" [(ngModel)]="name" >
+      <br>
+       IMAGE:<br>
+      <input type="text" [(ngModel)]="url">
+      <br>
+       CAPTION IMAGE :<br>
+      <input type="text" [(ngModel)]="back">
+      <br>
+       DATE:<br>
+      <input type="text" [(ngModel)]="date">
+      <br>
+       CAPTION:<br>
+       <input type="text" [(ngModel)]="caption">
+       <br><br>
+
+      <button routerLink="/about" (click)="add()">SUBMIT</button>
+      
+    </div> 
+
+</div>
+ 
+
